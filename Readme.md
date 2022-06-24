@@ -7,3 +7,6 @@
 
 # Lesson 3 - Control flow/Expression and Operators
 - link https://popcode.org/?snapshot=e8e54afa-6c29-435c-92df-87285a8e5542
+
+# lesson 4
+- https://popcode.org/?snapshot=123aa359-8d12-4fdc-9ac0-380bc1b13b09
