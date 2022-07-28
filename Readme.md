@@ -14,6 +14,6 @@
 # lesson 5 - Basic css
 - coming soon
 
-# lesson 6 - 
+# lesson 6 - Advance
 - link [https://popcode.org/?snapshot=123aa359-8d12-4fdc-9ac0-380bc1b13b09](https://popcode.org/?snapshot=c55058bb-7c39-4fcb-abc8-8f09e0de2c8e)
 
