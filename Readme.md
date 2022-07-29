@@ -12,7 +12,7 @@
 - link [https://popcode.org/?snapshot=02a0d49a-e2e1-4873-acd4-9dbdb1434f94](https://popcode.org/?snapshot=02a0d49a-e2e1-4873-acd4-9dbdb1434f94)
 
 # lesson 5 - Basic css
-- coming soon
+- link [https://popcode.org/?snapshot=fdc1d6fc-5a3c-45ce-a557-ab85d7e92a7e](https://popcode.org/?snapshot=fdc1d6fc-5a3c-45ce-a557-ab85d7e92a7e)
 
 # lesson 6 - Advance
 - link [https://popcode.org/?snapshot=123aa359-8d12-4fdc-9ac0-380bc1b13b09](https://popcode.org/?snapshot=c55058bb-7c39-4fcb-abc8-8f09e0de2c8e)
