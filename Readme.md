@@ -89,3 +89,184 @@ Types of tags:
 1. use a couple of the tags from [this link](https://www.journaldev.com/55918/fundamental-html-tags) to see what you can build.
 
 `hint: some of the tags will fail. Try to find ones that works`
+
+
+
+
+
+# Lesson 5 - Basic CSS 
+
+
+## What is CSS for?
+CSS is a language for specifying how documents are presented to users — how they are styled, laid out, etc.
+
+A document is usually a text file structured using a markup language — HTML is the most common markup language, but you may also come across other markup languages such as SVG or XML.
+
+
+
+### This is what basic css looks like. 
+- CSS is A rules based language. This means that you are defining a set of rules to tell how an object must behave.
+
+```
+h1{
+ color: blue;   
+}
+
+p{
+ color: red;   
+}
+
+.classinput{
+    background: red;
+    height: 40px;
+    padding: 10px;
+} 
+```
+
+- The first section of a CSS block is the selector. It is used to tell which html object(s) the specified rules should apply to. 
+- The second section of a CSS block is the rules. 
+
+```
+h1{
+ color: blue;   
+}
+```
+- The code above is saying, find all the `h1` tags and change there color to blue.
+
+### Activity #1
+
+1. Copy and paste the h1 code block above into the css window on the right and note what happens.
+
+
+## Using a class selector in CSS
+
+- A class selector is almost the same as a tag selector. The only difference is we put a **.** followed by the class name to be selected. 
+
+example:
+```
+.cls{
+   color:red;
+}
+```
+### Activity #2
+
+1. Copy and paste the example code block above into the css window on the right and note what happens.
+
+1 Try to change the color of the word `Class` to green.
+
+
+## Using a id selector in CSS
+
+- An id selector is identical to the other two selectors except it uses `#` follow by the id of the object to be selected
+
+example
+```
+#to{
+  color: purple;
+  font-family: Cursive;
+    
+}
+```
+### Activity #3
+
+1. Copy and paste the example code block above into the css window on the right and note what happens.
+
+
+## Applying CSS rules.
+- Now that we know how to select and apply rules to html objects, let's see if we can apply some simple styles.
+
+### Activity #4
+
+1. Copy and paste the example code blocks below one by one and note what happens. Pay attention because you will be styling your own object next.
+
+- Update the input container CSS
+```
+.classinput{
+ 	background: red;
+    height: 40px;
+    padding: 10px;
+} 
+```
+- Update input button and input box CSS
+
+```
+.classinput button {
+    height: 35px;
+    color: green;
+    
+}
+
+.classinput input {
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 10px;
+} 
+```
+
+- Update input button and input box CSS outside of the input container.
+
+```
+.classbtn {
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    background: green;  
+}
+
+
+.classinpt{
+    height: 30px;
+    margin: 10px; 
+    border-radius: 10px;
+    background: green;
+    padding: 5px;
+}
+```
+- Resize image to fix screen
+
+```
+.clsimg{
+    height: 350px;
+    width: 100%; 
+}
+
+.clsimg img{
+    height: 100%;
+     width: 100%; 
+    
+}
+```
+
+## How to make a website interactive. 
+
+- We can use CSS and html events to make our site interactive. the syntax is similar to the base selector syntax. the only difference is we add the html event to listen for to the selector.
+
+
+example. - We want to change the color of the input container every time the mouse moves over it.
+
+```
+.classinput:hover {
+ 	background: green;
+} 
+
+```
+
+### Activity #5
+
+1. Copy and paste the example code block above into the css window on the right and note what happens.
+
+
+### Activity #6
+
+1. Add some styles to the button and text box without styles. copy and paste the below code blocks into the CSS window on the right and add your own styling.  Have fun! 
+
+```
+.classinpttst{
+/*  add some styles here */
+    
+}
+
+.classbtntst{
+/*  add some styles here */
+}
+```
